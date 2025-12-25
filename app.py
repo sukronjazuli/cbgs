@@ -507,7 +507,7 @@ def main():
         documents = create_smart_chunks(json_data)
         vector_db = create_vector_store(documents)
 
-        st.success(f"✅ Database: {json_data['metadata']['total_cases']} cases | ⚡ Groq: GRATIS & SUPER CEPAT!")
+        st.success(f"✅ Database: {json_data['metadata']['total_cases']} cases | ⚡ by: rekam-medis.id")
 
         if len(st.session_state.current_messages) == 0:
             st.info("👋 Tanyakan tentang diagnosa, kode ICD, prosedur, atau aspek koding apapun!")
