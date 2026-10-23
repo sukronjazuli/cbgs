@@ -483,7 +483,7 @@ def main():
         st.divider()
         
         # Info Groq
-        st.success("⚡ Powered by rekam-medis.id")
+        st.success("⚡ Powered by rmik.my.id")
         st.caption(f"🔐 Session: {user_id[:12]}...")
         
         if st.button("🔄 Reset Session", use_container_width=True):
